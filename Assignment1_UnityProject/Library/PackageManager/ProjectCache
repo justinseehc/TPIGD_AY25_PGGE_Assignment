@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/justi/Documents/Github/temp1/Assignment1_UnityProject/Packages/manifest.json
+    m_FilePath: C:/Users/justi/Documents/Github/TPIGD_AY25_PGGE_Assignment/Assignment1_UnityProject/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639008004860000000
-    m_Hash: 1462457449
+      ticks: 639009327399454785
+    m_Hash: 1982459132
   m_LockFileStatus:
-    m_FilePath: C:/Users/justi/Documents/Github/temp1/Assignment1_UnityProject/Packages/packages-lock.json
+    m_FilePath: C:/Users/justi/Documents/Github/TPIGD_AY25_PGGE_Assignment/Assignment1_UnityProject/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639008004900000000
-    m_Hash: 2108991367
+      ticks: 639009327399465009
+    m_Hash: 2667347109
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/justi/Documents/Github/temp1/Assignment1_UnityProject/Packages
+m_ProjectPath: C:/Users/justi/Documents/Github/TPIGD_AY25_PGGE_Assignment/Assignment1_UnityProject/Packages
 m_EditorVersion: 6000.2.15f1 (0707b6d1e918)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@2.0.9
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.9
   source: 1
-  resolvedPath: C:\Users\justi\Documents\Github\temp1\Assignment1_UnityProject\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
+  resolvedPath: C:\Users\justi\Documents\Github\TPIGD_AY25_PGGE_Assignment\Assignment1_UnityProject\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -160,7 +160,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.10.2
   source: 1
-  resolvedPath: C:\Users\justi\Documents\Github\temp1\Assignment1_UnityProject\Library\PackageCache\com.unity.collab-proxy@3351acaba9c9
+  resolvedPath: C:\Users\justi\Documents\Github\TPIGD_AY25_PGGE_Assignment\Assignment1_UnityProject\Library\PackageCache\com.unity.collab-proxy@3351acaba9c9
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Unity Version Control
@@ -341,7 +341,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.38
   source: 1
-  resolvedPath: C:\Users\justi\Documents\Github\temp1\Assignment1_UnityProject\Library\PackageCache\com.unity.ide.rider@1f60b3138684
+  resolvedPath: C:\Users\justi\Documents\Github\TPIGD_AY25_PGGE_Assignment\Assignment1_UnityProject\Library\PackageCache\com.unity.ide.rider@1f60b3138684
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -472,7 +472,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.25
   source: 1
-  resolvedPath: C:\Users\justi\Documents\Github\temp1\Assignment1_UnityProject\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
+  resolvedPath: C:\Users\justi\Documents\Github\TPIGD_AY25_PGGE_Assignment\Assignment1_UnityProject\Library\PackageCache\com.unity.ide.visualstudio@74aa435fc4bb
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -586,7 +586,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\justi\Documents\Github\temp1\Assignment1_UnityProject\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
+  resolvedPath: C:\Users\justi\Documents\Github\TPIGD_AY25_PGGE_Assignment\Assignment1_UnityProject\Library\PackageCache\com.unity.multiplayer.center@f3fb577b3546
   assetPath: Packages/com.unity.multiplayer.center
   name: com.unity.multiplayer.center
   displayName: Multiplayer Center
@@ -682,7 +682,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.0
   source: 2
-  resolvedPath: C:\Users\justi\Documents\Github\temp1\Assignment1_UnityProject\Library\PackageCache\com.unity.test-framework@40e262928427
+  resolvedPath: C:\Users\justi\Documents\Github\TPIGD_AY25_PGGE_Assignment\Assignment1_UnityProject\Library\PackageCache\com.unity.test-framework@40e262928427
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -772,7 +772,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.9
   source: 1
-  resolvedPath: C:\Users\justi\Documents\Github\temp1\Assignment1_UnityProject\Library\PackageCache\com.unity.timeline@6b9e48457ddb
+  resolvedPath: C:\Users\justi\Documents\Github\TPIGD_AY25_PGGE_Assignment\Assignment1_UnityProject\Library\PackageCache\com.unity.timeline@6b9e48457ddb
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -970,7 +970,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: C:\Users\justi\Documents\Github\temp1\Assignment1_UnityProject\Library\PackageCache\com.unity.ugui@3ed76cad4655
+  resolvedPath: C:\Users\justi\Documents\Github\TPIGD_AY25_PGGE_Assignment\Assignment1_UnityProject\Library\PackageCache\com.unity.ugui@3ed76cad4655
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -3831,7 +3831,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
-  resolvedPath: C:\Users\justi\Documents\Github\temp1\Assignment1_UnityProject\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+  resolvedPath: C:\Users\justi\Documents\Github\TPIGD_AY25_PGGE_Assignment\Assignment1_UnityProject\Library\PackageCache\com.unity.ext.nunit@031a54704bff
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit

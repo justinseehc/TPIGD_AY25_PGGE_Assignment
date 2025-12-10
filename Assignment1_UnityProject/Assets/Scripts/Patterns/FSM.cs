@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 
 namespace PGGE
@@ -70,10 +69,10 @@ namespace PGGE
             //store the key, value pair of the set of states.
             //The key will be a unique ID for an
             //application-specific FSMState instance.
-            
+
             protected Dictionary<int, FSMState> m_states = new Dictionary<int, FSMState>();
 
-            public Dictionary<int, FSMState> States {  get { return m_states; } }
+            public Dictionary<int, FSMState> States { get { return m_states; } }
 
             //!The current state that the FSM is in right now.
             protected FSMState m_currentState;

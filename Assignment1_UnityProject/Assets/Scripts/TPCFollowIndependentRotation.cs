@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace PGGE
 {
@@ -25,9 +23,9 @@ namespace PGGE
         {
             //implement the Update for this camera controls    public override void Update()
 #if UNITY_STANDALONE
-        float mx, my;
-        mx = Input.GetAxis("Mouse X");
-        my = Input.GetAxis("Mouse Y");
+            float mx, my;
+            mx = Input.GetAxis("Mouse X");
+            my = Input.GetAxis("Mouse Y");
 #endif
 #if UNITY_ANDROID
             float mx, my;

@@ -1,7 +1,6 @@
-﻿using System.Collections;
+﻿using PGGE;
 using System.Collections.Generic;
 using UnityEngine;
-using PGGE;
 
 public enum CameraType
 {
@@ -87,24 +86,24 @@ public class ThirdPersonCamera : MonoBehaviour
     void LateUpdate()
     {
         mThirdPersonCamera.Update();
-        RepositionCamera();
+        mThirdPersonCamera.RepositionCamera();
     }
 
-    void RepositionCamera()
-    {
-        // calculate the desired camera position relative to the player
-        Vector3 desiredPosition = player.position - player.forward * distanceBehindPlayer + Vector3.up * verticalOffset;
+    //void RepositionCamera()
+    //{
+    //    // calculate the desired camera position relative to the player
+    //    Vector3 desiredPosition = player.position - player.forward * distanceBehindPlayer + Vector3.up * verticalOffset;
 
-        // check for obstacles using the spherecast
-        RaycastHit hit;
-        Vector3 directionToDesiredPosition = (desiredPosition - player.position).normalized;
+    //    // check for obstacles using the spherecast
+    //    RaycastHit hit;
+    //    Vector3 directionToDesiredPosition = (desiredPosition - player.position).normalized;
 
-        float distanceToDesiredPosition = Vector3.Distance(player.position, desiredPosition);
-        if (Physics.SphereCast(player.position, sphereRadius, directionToDesiredPosition, out hit, distanceToDesiredPosition, obstacleLayer))
-        {
-            // If an obstacle is detected, adjust the camera's position to be in front of the obstacle
-            Vector3 hitPosition = hit.point + hit.normal * sphereRadius; // Offset the camera slightly away from the wall
-            desiredPosition = new Vector3(hitPosition.x, desiredPosition.y, hitPosition.z); // Preserve the vertical offset
-        }
-    }
+    //    float distanceToDesiredPosition = Vector3.Distance(player.position, desiredPosition);
+    //    if (Physics.SphereCast(player.position, sphereRadius, directionToDesiredPosition, out hit, distanceToDesiredPosition, obstacleLayer))
+    //    {
+    //        // If an obstacle is detected, adjust the camera's position to be in front of the obstacle
+    //        Vector3 hitPosition = hit.point + hit.normal * sphereRadius; // Offset the camera slightly away from the wall
+    //        desiredPosition = new Vector3(hitPosition.x, desiredPosition.y, hitPosition.z); // Preserve the vertical offset
+    //    }
+    //}
 }

@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class GameApp : Singleton<GameApp>
 {
+    public AmbientSound mAmbientSound;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

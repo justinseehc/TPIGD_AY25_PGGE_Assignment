@@ -150,6 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0250ccdaa41a89c44a01bc3a4be70ac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameApp
+  mAmbientSound: {fileID: 84307560}
 --- !u!4 &84307559
 Transform:
   m_ObjectHideFlags: 0
@@ -177,6 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 136fbf4abc533a44fbd4c33af3cc7365, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  mAudioSource: {fileID: 84307561}
 --- !u!82 &84307561
 AudioSource:
   m_ObjectHideFlags: 0

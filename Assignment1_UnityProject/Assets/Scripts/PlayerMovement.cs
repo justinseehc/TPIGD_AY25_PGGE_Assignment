@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     private bool run = false; // NEW ANIMATION
     private bool comboPunch = false; // NEW ANIMATION
     private bool martelo = false; // NEW ANIMATION
+    private bool macaco = false; // NEW ANIMATION
 
     public float mGravity = -30.0f;
     public float mJumpHeight = 1.0f;
@@ -108,6 +109,13 @@ public class PlayerMovement : MonoBehaviour
             martelo = true;
             Martelo();
         }
+
+        // NEW ANIMATION - Macaco
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            macaco = true;
+            Macaco();
+        }
     }
 
     public void Move()
@@ -184,6 +192,12 @@ public class PlayerMovement : MonoBehaviour
     void Martelo()
     {
         mAnimator.SetTrigger("Martelo");
+    }
+
+    // NEW ANIMATION - Macaco
+    void Macaco()
+    {
+        mAnimator.SetTrigger("Macaco");
     }
 
     void ApplyGravity()

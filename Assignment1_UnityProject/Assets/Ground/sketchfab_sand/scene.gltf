@@ -1,0 +1,272 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        4.367877960205078,
+        -6.039906024932861,
+        7.095149993896484
+      ],
+      "min": [
+        -6.240594863891602,
+        -9.27729606628418,
+        -6.246226787567139
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9938793778419495,
+        0.9999979734420776,
+        0.8574851155281067
+      ],
+      "min": [
+        -0.9026011228561401,
+        -0.2815130949020386,
+        -0.943859338760376
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9916359782218933,
+        0.9919329881668091
+      ],
+      "min": [
+        0.008059999905526638,
+        0.008065000176429749
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 363060,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572768,
+      "componentType": 5126,
+      "count": 21038,
+      "max": [
+        4.347346782684326,
+        -6.1877760887146,
+        7.306337833404541
+      ],
+      "min": [
+        -4.979330062866211,
+        -8.80498218536377,
+        -4.394256114959717
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1825224,
+      "componentType": 5126,
+      "count": 21038,
+      "max": [
+        0.8321493268013,
+        0.9999995231628418,
+        0.8574851155281067
+      ],
+      "min": [
+        -0.6972553730010986,
+        0.2775680422782898,
+        -0.8423951864242554
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524256,
+      "componentType": 5126,
+      "count": 21038,
+      "max": [
+        0.9488540291786194,
+        0.991919994354248
+      ],
+      "min": [
+        0.008218999952077866,
+        0.1225619986653328
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1452240,
+      "componentType": 5125,
+      "count": 116910,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Terrie Simmons-Ehrhardt (https://sketchfab.com/terrielsimmons)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/bird-footprints-in-the-sand-37704158200c42e8812d3193fae77401",
+      "title": "Bird footprints in the sand"
+    },
+    "generator": "Sketchfab-12.65.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1919880,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 692560,
+      "byteOffset": 1919880,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2077680,
+      "byteOffset": 2612440,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4690120,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_unlit"
+  ],
+  "images": [
+    {
+      "uri": "textures/material0000_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_unlit": {}
+      },
+      "name": "material0000",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        -0.058270785957574844,
+        0.048661358654499276,
+        -0.9971141219139099,
+        0.0,
+        0.19850392639636993,
+        0.9794313907623291,
+        0.03619794547557852,
+        0.0,
+        0.9783663749694824,
+        -0.1958217918872833,
+        -0.06673171371221547,
+        0.0,
+        0.010771122761070728,
+        8.180503845214842,
+        7.037542819976808,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3
+      ],
+      "name": "model.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

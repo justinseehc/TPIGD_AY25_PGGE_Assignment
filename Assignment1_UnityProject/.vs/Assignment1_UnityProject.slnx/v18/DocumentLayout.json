@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\justi\\Documents\\Github\\temp1\\Assignment1_UnityProject\\",
+  "WorkspaceRootPath": "C:\\Users\\justi\\Documents\\Github\\TPIGD_AY25_PGGE_Assignment\\Assignment1_UnityProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\justi\\Documents\\Github\\temp1\\Assignment1_UnityProject\\Assets\\Scripts\\GameApp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameApp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\justi\\documents\\github\\temp1\\assignment1_unityproject\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\justi\\documents\\github\\tpigd_ay25_pgge_assignment\\assignment1_unityproject\\assets\\scripts\\footstepmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\footstepmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\Documents\\Github\\temp1\\Assignment1_UnityProject\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "C:\\Users\\justi\\Documents\\Github\\temp1\\Assignment1_UnityProject\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAALcAAAAAAAAAAAAwwMIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T02:08:31.546Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameApp.cs",
-              "DocumentMoniker": "C:\\Users\\justi\\Documents\\Github\\temp1\\Assignment1_UnityProject\\Assets\\Scripts\\GameApp.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameApp.cs",
-              "ToolTip": "C:\\Users\\justi\\Documents\\Github\\temp1\\Assignment1_UnityProject\\Assets\\Scripts\\GameApp.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameApp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Title": "FootstepManager.cs",
+              "DocumentMoniker": "C:\\Users\\justi\\Documents\\Github\\TPIGD_AY25_PGGE_Assignment\\Assignment1_UnityProject\\Assets\\Scripts\\FootstepManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FootstepManager.cs",
+              "ToolTip": "C:\\Users\\justi\\Documents\\Github\\TPIGD_AY25_PGGE_Assignment\\Assignment1_UnityProject\\Assets\\Scripts\\FootstepManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FootstepManager.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T02:27:56.839Z",
+              "WhenOpened": "2025-12-11T02:39:31.746Z",
               "EditorCaption": ""
             }
           ]

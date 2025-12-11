@@ -5,7 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - Dirt
-  - Sand
+  - Concrete
+  - Wood
+  - Metal
+  - Floor
   layers:
   - Default
   - TransparentFX
@@ -14,7 +17,7 @@ TagManager:
   - Water
   - UI
   - Wall
-  - 
+  - Ground
   - Player
   - 
   - 

@@ -1,4 +1,6 @@
-﻿using PGGE;
+﻿using System.Collections.Generic;
+using NUnit.Framework;
+using PGGE;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -21,10 +23,9 @@ public class PlayerMovement : MonoBehaviour
     private float speed;
     private bool jump = false;
     private bool crouch = false;
-    private bool run = false; // NEW ANIMATION
-    private bool comboPunch = false; // NEW ANIMATION
-    private bool martelo = false; // NEW ANIMATION
-    private bool macaco = false; // NEW ANIMATION
+    private bool run = false; // NEW ANIMATIOM
+
+    public List<string> mAnimations = new List<string>(); // TO GET ANIMATIONS NAME
 
     public float mGravity = -30.0f;
     public float mJumpHeight = 1.0f;
@@ -99,28 +100,39 @@ public class PlayerMovement : MonoBehaviour
         // NEW ANIMATION - ComboPunch
         if (Input.GetKeyDown(KeyCode.C))
         {
-            comboPunch = true;
             ComboPunch();
         }
+
 
         // NEW ANIMATION - Martelo
         if (Input.GetKeyDown(KeyCode.V))
         {
-            martelo = true;
             Martelo();
         }
 
         // NEW ANIMATION - Macaco
         if (Input.GetKeyDown(KeyCode.B))
         {
-            macaco = true;
             Macaco();
         }
     }
 
     public void Move()
     {
-        if (crouch || comboPunch || martelo || macaco) return;
+        if (mAnimator == crouch) return;
+
+        // See if animator is running any animation
+        if (mAnimator != null)
+        {
+            // Loop through all animations and see if it matches with the animator state
+            for (int i = 0; i < mAnimations.Count; i++)
+            {
+                if (mAnimator.GetCurrentAnimatorStateInfo(0).IsName(mAnimations[i]))
+                {
+                    return;
+                }
+            }
+        }
 
         // We shall apply movement to the game object here.
         if (mAnimator == null) return;
@@ -188,10 +200,10 @@ public class PlayerMovement : MonoBehaviour
         mAnimator.SetTrigger("ComboPunch");
     }
 
-    // NEW ANIMATION - Martelo
+    //// NEW ANIMATION - Martelo
     void Martelo()
     {
-        mAnimator.SetBool("Martelo", false);
+        mAnimator.SetTrigger("Martelo");
     }
 
     // NEW ANIMATION - Macaco

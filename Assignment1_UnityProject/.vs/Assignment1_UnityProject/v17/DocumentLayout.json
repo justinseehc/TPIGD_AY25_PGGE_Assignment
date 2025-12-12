@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "Z:\\Github\\TPIGD_AY25_PGGE_Assignment\\Assignment1_UnityProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|z:\\github\\tpigd_ay25_pgge_assignment\\assignment1_unityproject\\assets\\scripts\\tpcbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|z:\\github\\tpigd_ay25_pgge_assignment\\assignment1_unityproject\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|Z:\\Github\\TPIGD_AY25_PGGE_Assignment\\Assignment1_UnityProject\\assets\\scripts\\tpcbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tpcbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|Z:\\Github\\TPIGD_AY25_PGGE_Assignment\\Assignment1_UnityProject\\assets\\scripts\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|Z:\\Github\\TPIGD_AY25_PGGE_Assignment\\Assignment1_UnityProject\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DFA85B0-9C1A-B002-2913-664021CC6512}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TPCBase.cs",
               "DocumentMoniker": "Z:\\Github\\TPIGD_AY25_PGGE_Assignment\\Assignment1_UnityProject\\Assets\\Scripts\\TPCBase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TPCBase.cs",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "Assets\\Scripts\\TPCBase.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T02:16:54.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T02:16:54.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ThirdPersonCamera.cs",
               "DocumentMoniker": "Z:\\Github\\TPIGD_AY25_PGGE_Assignment\\Assignment1_UnityProject\\Assets\\Scripts\\ThirdPersonCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ThirdPersonCamera.cs",
@@ -51,20 +50,20 @@
               "RelativeToolTip": "Assets\\Scripts\\ThirdPersonCamera.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T02:14:11.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T02:14:11.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "Z:\\Github\\TPIGD_AY25_PGGE_Assignment\\Assignment1_UnityProject\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
               "ToolTip": "Z:\\Github\\TPIGD_AY25_PGGE_Assignment\\Assignment1_UnityProject\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAALYAAAAAAAAAAAAAwMEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAIwG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T16:10:09.249Z"
+              "WhenOpened": "2025-12-11T16:10:09.249Z",
+              "EditorCaption": ""
             }
           ]
         }

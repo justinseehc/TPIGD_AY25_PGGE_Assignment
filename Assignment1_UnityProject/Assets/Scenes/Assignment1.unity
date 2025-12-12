@@ -2259,6 +2259,14 @@ MonoBehaviour:
   mRotationSpeed: 50
   mFollowCameraForward: 0
   mTurnRate: 500
+  mAnimations:
+  - Boxing
+  - Hook
+  - Block
+  - Martelo
+  - Combo Punch
+  - Jump
+  - Macaco
   mGravity: -30
   mJumpHeight: 1
   mRunningSpeed: 3

@@ -14,6 +14,7 @@ public class FootstepSoundPlayer : MonoBehaviour
         var clips = GetClipsForSurface();
         var randomClip = clips[Random.Range(0, clips.Length)];
         AudioSource.PlayClipAtPoint(randomClip, transform.position);
+        Debug.Log("For reference: " + randomClip.name);
     }
 
     private AudioClip[] GetClipsForSurface()

@@ -17,7 +17,7 @@ public class ThirdPersonCamera : MonoBehaviour
 
     TPCBase mThirdPersonCamera;
     // Get from Unity Editor.
-    public Vector3 mPositionOffset = new Vector3(0.0f, 2.0f, -2.5f);
+    public Vector3 mPositionOffset = new Vector3(0.0f, 4.0f, -2.5f);
     public Vector3 mAngleOffset = new Vector3(0.0f, 0.0f, 0.0f);
     [Tooltip("The damping factor to smooth the changes in position and rotation of the camera.")]
     public float mDamping = 1.0f;
@@ -31,7 +31,7 @@ public class ThirdPersonCamera : MonoBehaviour
     public Transform player; // reference to player transform
     public LayerMask obstacleLayer; // layer masek for obstacles
     public float sphereRadius = 0.5f; // check radius for pserecast
-    public float verticalOffset = 2.0f; // Height above the player head (camera)
+    public float verticalOffset = 5.0f; // Height above the player head (camera)
     public float distanceBehindPlayer = 3.0f; // Distance behind player
     Dictionary<CameraType, TPCBase> mThirdPersonCameraDict = new Dictionary<CameraType, TPCBase>();
 
@@ -74,7 +74,7 @@ public class ThirdPersonCamera : MonoBehaviour
         // Update the game constant parameters every frame 
         // so that changes applied on the editor can be reflected
         CameraConstants.Damping = mDamping;
-        //CameraConstants.CameraPositionOffset = mPositionOffset;
+        CameraConstants.CameraPositionOffset = mPositionOffset;
         CameraConstants.CameraAngleOffset = mAngleOffset;
         CameraConstants.MinPitch = mMinPitch;
         CameraConstants.MaxPitch = mMaxPitch;

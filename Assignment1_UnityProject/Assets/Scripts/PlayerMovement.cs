@@ -120,7 +120,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move()
     {
-        if (crouch) return;
+        if (crouch || comboPunch || martelo || macaco) return;
 
         // We shall apply movement to the game object here.
         if (mAnimator == null) return;
@@ -191,7 +191,7 @@ public class PlayerMovement : MonoBehaviour
     // NEW ANIMATION - Martelo
     void Martelo()
     {
-        mAnimator.SetTrigger("Martelo");
+        mAnimator.SetBool("Martelo", false);
     }
 
     // NEW ANIMATION - Macaco
